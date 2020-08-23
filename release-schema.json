@@ -6,13 +6,15 @@
           "title": "additional tender properties",
           "description": "Other properties related to the tender",
           "type": "object",
-          "withSpecialBudget": {
-            "title": "with special budge",
-            "description": "Whether the procurement is involved with Special Budget",
-            "type": [
-              "boolean",
-              null
-            ]
+          "properties": {
+            "withSpecialBudget": {
+              "title": "with special budge",
+              "description": "Whether the procurement is involved with Special Budget",
+              "type": [
+                "boolean",
+                null
+              ]
+            }
           }
         }
       }
