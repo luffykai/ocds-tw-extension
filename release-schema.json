@@ -1,0 +1,18 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "additionalProperties": {
+          "withSpecialBudget": {
+            "title": "Test",
+            "description": "test1",
+            "type": [
+              "boolean",
+              null
+            ]
+          }
+        }
+      }
+    }
+  }
+}

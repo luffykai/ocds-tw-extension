@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "test1"
+  },
+  "description": {
+    "en": "yo"
+  },
+  "documentationUrl": {
+    "en": ""
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+  ]
+}
