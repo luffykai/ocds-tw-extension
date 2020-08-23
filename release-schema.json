@@ -3,9 +3,12 @@
     "Tender": {
       "properties": {
         "additionalProperties": {
+          "title": "additional tender properties",
+          "description": "Other properties related to the tender",
+          "type": "object",
           "withSpecialBudget": {
-            "title": "Test",
-            "description": "test1",
+            "title": "with special budge",
+            "description": "Whether the procurement is involved with Special Budget",
             "type": [
               "boolean",
               null
