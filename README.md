@@ -10,11 +10,22 @@ procurement process.
 
 ## Examples
 
+- 本採購是否屬「具敏感性或國安(含資安)疑慮之業務範疇」採購"
 ```
 {
   "tender": {
     "additionalProperties": {
       "involveInfoSecurityOrNationalSecurity": true,
+    }
+  }
+}
+```
+- 是否含特別預算
+```
+{
+  "tender": {
+    "additionalProperties": {
+      "withSpecialBudget": true,
     }
   }
 }
